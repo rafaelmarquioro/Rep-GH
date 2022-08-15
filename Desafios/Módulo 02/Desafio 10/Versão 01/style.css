@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #E7E5C2;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(1, 105, 1), rgb(105, 231, 172));
+    color: white;
+    padding: 5px;
+    margin: 0px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header > p {
+    text-align: center;
+    width: 400px;
+    margin: 15px auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    color: rgb(105, 231, 172);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: rgb(163, 228, 177);
+    color: rgb(3, 73, 30);
+}
+
+main {
+    background-color: white;
+    width: 85%;
+    margin: 0px auto;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2, h3 {
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    color: rgb(0, 75, 0);
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgb(191, 243, 191), white);
+    padding: 0px 0px 0px 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linktexto {
+    color: rgb(4, 95, 24);
+    background-color: rgb(103, 207, 117);
+    text-decoration: none;
+}
+
+#sectionprincipal {
+    padding: 10px;
+}
+
+#videoandroid {
+    background-color: rgb(2, 82, 2);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+#sectionsec {    
+    background-color: rgb(202, 224, 212);
+    margin: 10px;
+    padding: 0px;
+}
+
+#divfinal {
+    padding: 0px 10px 5px 10px;
+}
+
+#h4final {
+    background-color: rgb(1, 105, 1);
+    padding: 5px;
+    color: white;
+}
+
+.lista {
+    background-color: aqua;
+    width: 250px;
+    display: inline-block;
+}
+
+#msgfinal {    
+    margin: 0px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(2, 82, 2);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+}
