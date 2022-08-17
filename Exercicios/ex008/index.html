@@ -1,37 +1,37 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de Textos</title>
-    <style>
+<!DOCTYPE html> <!-- OK -->
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Formatação de Textos</title> <!-- OK -->
+    <style> /* Neste exercicio já foi usado o CSS, mas não vou detalhar aqui, pois tem um mais para frente explicando a diferença do CSS inline, interno e externo. */
         mark {
             background-color: aqua;
         }
     </style>
 </head>
-<body>
-    <h1>Principais formatações</h1>
+<body> <!-- OK -->
+    <h1>Principais formatações</h1> <!-- OK -->
     <h2>Negrito / Destaque</h2>
-    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
-    <p>Nessa frase temos um <strong>termo em negrito</strong> usando a tag STRONG (semântica).</p>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p> <!-- Utilizado a tag "b" que deixa o texto em negrito, mas que é uma tag não semântica, ou seja, apenas deixa o texto negrito mas não serve para dar enfase para um buscador com o google. -->
+    <p>Nessa frase temos um <strong>termo em negrito</strong> usando a tag STRONG (semântica).</p> <!-- Neste caso já foi utilizado a tag "strong" que tem a mesma finalidade, deixar negrito, porém é uma tag semântica e consegue informar ao buscador que a palavra é importante no texto ou para o conteudo da página. -->
     <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
-    <p>Nesta frase, temos um <EM>termo em ênfase</EM> usando a tag EM (sêmantica).</p>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p> <!-- Utilizado a tag "i" que deixa o texto em itálico, mas que é uma tag não semântica. -->
+    <p>Nesta frase, temos um <EM>termo em ênfase</EM> usando a tag EM (sêmantica).</p> <!-- Neste caso já foi utilizado a tag "EM" que tem a mesma finalidade, deixar itálico, porém é uma tag semântica. -->
     <h2>Texto marcado</h2>
-    <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK.</p> <!-- utilizado a tag "mark" para marcar um texto, neste caso foi usado tambem o CSS para definir a cor do mark. -->
     <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
     <h2>Texto grande e pequeno</h2>
-    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p> <!-- a tag "big" esta em desuso porque entende-se que o papel de aumentar o tamanho da letra deve ser feito atraves do CSS (font-size) vsito que é apenas visual. Já a tag "small" foi mantida, pois além da função de reduzir o texto ela tem uma função semântica (não me recordo qual é) -->
     <h2>Texto deletado</h2>
-    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p> <!-- Usado a tag "del" para marcar o texto (linha riscando) e informar que este texto foi excluido e não é mais válido. -->
     <h2>Texto inserido</h2>
-    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
-    <p>Existe também o <u>sublinhado</u> com a tag U (não sêmantica).</p>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p> <!-- Da mesma forma como temos o del para informar que um texto foi excluido, existe o "ins" para informar que o texto foi inserido, por padrão o ins deixa o texto sublinhado. -->
+    <p>Existe também o <u>sublinhado</u> com a tag U (não sêmantica).</p> <!-- Utilizado a tag "u" que deixa o texto em sublinhado, mas que é uma tag não semântica. -->
     <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p> <!-- a tag "sup" deixa o texto sobrescrito -->
     <h2>Texto subscrito</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p><!-- a tag "sub" deixa o texto subscrito -->
 </body>
 </html>

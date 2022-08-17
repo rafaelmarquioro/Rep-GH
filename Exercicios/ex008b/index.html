@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+<!DOCTYPE html> <!-- OK -->
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Outras formatações</title> <!-- OK -->
 </head>
-<body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>documento.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
+<body> <!-- OK -->
+    <h1>Outras formatações</h1> <!-- OK -->
+    <h2>Código-fonte / Pré-formatação</h2> <!-- OK -->
+    <p>O comando <code>documento.getElementById('teste')</code> é escrito em linguagem JavaScript.</p> <!-- Com a tag "code" o texto fica com um espaçamento igual em todas as letras posibilitando assim uma leitura mais adequada no caso de um código por exemplo. -->
+    <pre> <!-- A tag "pre" mantem a formatação igual foi esrito no VisualStudioCode, como por exemplo mostrado abaixo. É tambem muito util quando precisamos descrever códigos. -->
         <code>
     num = int(input('Digite um número'))
     if num % 2 == 0:
@@ -21,15 +21,15 @@
         </code>
     </pre>
     <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p> <!-- A tag "q" é utilizada para colocar citações no texto, o que obviamente além de inserir as aspas que podem ser colocadas de forma normal, tem a função semântica de informar ao navegador que é uma citação. -->
     <h2>Citações completas</h2>
     <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover">
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover"> <!-- A citação mais completa deve ser realizada com a tag "blockquote" onde tambem é referenciado de forma correta de onde partir a citação (origem). -->
         A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
     </blockquote>
     <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>. Estou adorando!</p> <!-- Para realizar abreviações pode ser utilizada a tag "abbr" que acompanhada do title informa qual é o significado daquela sigla. -->
     <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p> <!-- Apesar de não ver uma aplicação neste momento, a tag "bdo" faz a inversão do texto como mostrado. -->
 </body>
 </html>

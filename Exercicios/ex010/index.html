@@ -1,23 +1,23 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhando com Links</title>
+<!DOCTYPE html> <!-- OK -->
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Trabalhando com Links</title> <!-- OK -->
 </head>
-<body>
-    <h1>Usando links externos</h1>
-    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_black" rel="external">repositório público no GiHub</a></p>
+<body> <!-- OK -->
+    <h1>Usando links externos</h1> <!-- OK -->
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_black" rel="external">repositório público no GiHub</a></p> <!-- Neste exercio aprendemos a usar os "links". Neste primeiro caso o link leva a um site externo e com o target "black" faz com que o link abre um uma nova guia. O rel é apenas para informar que é externo, em rel tambem podemos usar a opção nofollow para informar ao buscador que ele não deve seguir este link, pois é externo, como por exemplo no caso de uma publicidade. -->
     <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
     <h2>Usando links internos</h2>
-    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p> <!-- Neste exercio aprendemos a usar os "links". Neste caso o link leva a um site interno  O rel é apenas para informar que é interno e que "next" é a página seguinte, tambem podemos usar a "prev" em rel para informar que é a página previsa (ou index). -->
     <h2>Usando links internos</h2>
-    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p> <!-- Pode ser usado tambem em target o termo "_self" para informar que deve abrir na mesma guia. -->
     
     <h1>Links para download</h1>
     <ul>
-        <li><a href="livro/udesc.pdf" download="udesc.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="livro/udesc.pdf" download="udesc.pdf" type="application/pdf">Baixar livro em PDF</a></li> <!-- Quando o objetivo do link for realizar o download de um aquivo, deve ser espeficiado "download" e o nome do arquivo assimo como o tipo do arquivo. -->
         <li><a href="livro/udesc.rar" download="udesc.rar">Baixar libro em RAR</a></li>
     </ul>
 </body>
