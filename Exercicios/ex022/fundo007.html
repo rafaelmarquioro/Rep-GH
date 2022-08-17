@@ -1,37 +1,37 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento vertical</title>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Alinhamento vertical</title> <!-- OK -->
     <style>
-        #container {
-            background-image: url('imagens/target001.png');
-            background-size: 100% 100%;
-            position: relative;
-            height: 96vh;
-            padding: 10px;
-            background-color: purple;
+        #container { /*OK*/
+            background-image: url('imagens/target001.png'); /*OK*/
+            background-size: 100% 100%; /*OK*/
+            position: relative; /*para centralziar o article dentro do section (ou qualquer caixa dentro da outra), considera a de fora com position relative.*/
+            height: 96vh; /*OK*/
+            padding: 10px; /*OK*/
+            background-color: purple; /*OK*/
         }
-        #conteudo {
-            background-image: url('imagens/target001.png');
-            background-size: 100% 100%;
-            position: absolute;
-            height: 200px;
-            background-color: yellow;
-            width: 400px;
+        #conteudo { /*OK*/
+            background-image: url('imagens/target001.png'); /*OK*/
+            background-size: 100% 100%; /*OK*/
+            position: absolute; /*para centralziar o article dentro do section (ou qualquer caixa dentro da outra), considera a de dentro com position absolute.*/
+            height: 200px; /*OK*/
+            background-color: yellow; /*OK*/
+            width: 400px; /*OK*/
 
-            left: 50%;
-            top: 50%;
+            left: 50%; /* left de 50% fará com que a ponta do topo esquerdo fique em 50% da largura da caixa externa. */
+            top: 50%; /* top de 50% fará com que a ponta do topo esquerdo fique em 50% da altura da caixa externa. */
 
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); /* Este paramento fará que seja considerado o centro do article ao inves da ponta esquerda do topo, ficando assim uma caixa centralizada dentro da outra. */
         }
     </style>
 </head>
-<body>
-    <section id="container">
-        <article id="conteudo">
+<body> <!-- OK -->
+    <section id="container"> <!-- OK -->
+        <article id="conteudo"> <!-- OK -->
 
         </article>
     </section>

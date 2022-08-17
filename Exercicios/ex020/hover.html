@@ -1,34 +1,35 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Hover</title>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Exemplo de Hover</title> <!-- OK -->
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
+        body { /*OK*/
+            font-family: Arial, Helvetica, sans-serif; /*OK*/
         }
-        div > p {
-            display: none;
+        div > p { /*Aqui o CSS esta chamando apenas o elemento "p" de dentro da div.*/
+            display: none; /*Com display none o elemento paragrafo (dentro da div) não será mostrado (oculto)*/
         }
-        div:hover > p {
-            display: block;
-            color: white;
-            background-color: red;
-            width: 300px;
+        div:hover > p { /*Aqui o elemento paragrafo dentro da div será acionado quando o mouse passar em cima.*/
+            display: block; /*altera o display de none para block (mostrar)*/
+            color: white; /*OK*/
+            background-color: red; /*OK*/
+            width: 300px; /*OK*/
         }
         div:hover {
-            color: red;
+            color: red; /*OK*/
         }
     </style>
 </head>
-<body>
-    <h1>Exemplo de Hover</h1>
-    <p>Passe o mouse sobre o texto</p>
-    <div>
+<body> <!-- OK -->
+    <h1>Exemplo de Hover</h1> <!-- OK -->
+    <p>Passe o mouse sobre o texto</p> <!-- OK -->
+    <div> <!-- Quando usar div no HTML?
+        O elemento de divisão HTML <div> é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. -->
         Passe o mouse aqui
-        <p>TEXTO ESCONDIDO...</p>
+        <p>TEXTO ESCONDIDO...</p> <!-- OK -->
     </div>
     <p>Fim do Exemplo</p>
 </body>

@@ -1,10 +1,10 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Links</title> <!-- OK -->
     <style>
         /* SELETORES PERSONALIZADOS
             # = id
@@ -13,38 +13,38 @@
             :: = pseudo-element
             > = children
         */
-        body {
-            font-family: Arial, Helvetica, sans-serif;
+        body { /*OK*/
+            font-family: Arial, Helvetica, sans-serif; /*OK*/
         }
-        a {
-            color: red;
-            text-decoration: none;
-            font-weight: bold;
+        a { /*OK*/
+            color: red; /*OK*/
+            text-decoration: none; /*OK*/
+            font-weight: bold; /*OK*/
         }
-        a:visited {
-            color: red;
+        a:visited { /*Com este parametro o CSS vai colocar as configurações abaixo apenas os links "visitados" - pseudo-class: visited */
+            color: red; /*OK*/
         }
-        a:hover {
-            text-decoration: underline;
-            color:black;
+        a:hover { /*Com essa pseudo-class "hover" os parametros abaixo serão aplicado quando o mouse passar em cima da caixa a.*/
+            text-decoration: underline; /*OK*/
+            color:black; /*OK*/
         }
-        a:active {
-            color: greenyellow;
+        a:active { /*Com essa pseudo-class "active" os parametros abaixo serão aplicado quando o mouse clicar em cima da caixa a.*/
+            color: greenyellow; /*OK*/
         }
-        a::after {
-            content: ' [link]';
-            text-decoration: none;
-            font-weight: normal;
-            color: darkgray;
+        a::after { /*Com esse pseudo-element "after" os parametros abaixo serão aplicado (inseridos) após o texto do link.*/
+            content: ' [link]'; /* Será inserido o conteudo entre aspas com a configuração abaixo.*/
+            text-decoration: none; /*OK*/
+            font-weight: normal; /*OK*/
+            color: darkgray; /*OK*/
         }
     </style>
 </head>
-<body>
-    <h1>Personalizando Links</h1>
-    <ul>
-        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+<body> <!-- OK -->
+    <h1>Personalizando Links</h1> <!-- OK -->
+    <ul> <!-- OK -->
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li> <!-- OK -->
         <li><a href="https://youtube.com/cursoemvideo" target="_blank">Canal do Youtube</a></li>
-        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVídeo</a></li>        
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVídeo</a></li>     
     </ul>
 </body>
 </html>

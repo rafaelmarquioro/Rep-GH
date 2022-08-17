@@ -1,29 +1,29 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*OK*/
 
-body {
-    background-color: rgb(125, 240, 202);
-    font-family: Arial, Helvetica, sans-serif;
+body { /*OK*/
+    background-color: rgb(125, 240, 202); /*OK*/
+    font-family: Arial, Helvetica, sans-serif; /*OK*/
 }
-h1 {
-    color: rgb(13, 121, 85);
+h1 { /*OK*/
+    color: rgb(13, 121, 85); /*OK*/
 }
-h2 {
-    color: rgb(34, 58, 50);
+h2 { /*OK*/
+    color: rgb(34, 58, 50); /*OK*/
 }
-h1#principal {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgb(32, 83, 66);
+h1#principal { /*Aqui o CSS esta chamando o id principal dentro do h1*/
+    color: rgb(255, 255, 255); /*OK*/
+    text-align: center; /*OK*/
+    background-color: rgb(32, 83, 66); /*OK*/
 }
-.basico {
-    color: #3c805e;
+.basico { /*CSS chamando apenas o itens com class "basico"*/
+    color: #3c805e; /*OK*/
 }
-.intermediario {
-    color: #80793c;
+.intermediario { /*OK*/
+    color: #80793c; /*OK*/
 }
-.avancado {
-    color: #803c3c;
+.avancado { /*OK*/
+    color: #803c3c; /*OK*/
 }
-.destaque {
-    background-color: rgb(221, 221, 105);
+.destaque { /*OK*/
+    background-color: rgb(221, 221, 105); /*OK*/
 }

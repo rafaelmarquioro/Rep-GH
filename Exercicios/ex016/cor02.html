@@ -1,21 +1,22 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gradiente em CSS</title>
-    <style>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Gradiente em CSS</title> <!-- OK -->
+    <style> <!-- OK -->
         * { /* Confirações globais da CSS */
             height: 100%;
+            /* o que for definido aqui vai valer para todo o documento, aqui tambem podemos considerar margin e padding 0 para zerar as configurações originais de cada elemento*/
         }
         body {
-            background-image: radial-gradient(circle,rgb(59, 57, 57) 20%, black 30%, red);
-            background-attachment: fixed;
+            background-image: radial-gradient(circle,rgb(59, 57, 57) 20%, yellow, orange); /* Aqui foi configurado um gradiente entre 3 cores. Esse parametro tambem podemos usar com o "linear-gradient" */
+            background-attachment: fixed; /* configuração para deixar o background fixo.*/
         }
     </style>
 </head>
-<body>
-    <h1>Testando Gradiente</h1>
+<body> <!-- OK -->
+    <h1>Testando Gradiente</h1> <!-- OK -->
 </body>
 </html>

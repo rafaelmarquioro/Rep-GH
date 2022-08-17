@@ -1,14 +1,14 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes em CSS</title>
-    <style>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Fontes em CSS</title> <!-- OK -->
+    <style> 
         body {
-            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px;
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif; /* tipo de fonte, onde a sequencia determina qual sera utilziada primeiro. Caso o navegador nao consiga ler a primeira, vai tentar a segunda e assim por diante, no final precisa estar um tipo generico. */
+            font-size: 14px; /* tamanho da fonte, ver abaixo as medias possiveis. */
             /*
             Medidas Absolutas
             cm, mm, in, px, pt, pc
@@ -17,10 +17,10 @@
             em, ex, rem, vw, vh, %
             16px geralmente é igual a 1em
             */
-            font-weight: normal;
+            font-weight: normal; /* este parametro define a "espessura" de cada letra, como se fosse um negrito porém bem mais elaborado, podendo ir de 100 a 900 se a fonte tiver essas opções. */
             /* lighter normal bold bolder, podemos tambem usar de 100 a 900 para detalhar melhor o peso */
-            font-style: italic;
-            text-decoration: underline;        
+            font-style: italic; /* italico */
+            text-decoration: underline; /* sublinhado */        
         }
         h1 {
             font: italic bolder 3em Arial, sans-serif;
@@ -28,9 +28,9 @@
         }        
     </style>
 </head>
-<body>
-    <h1>Trabalhando com fontes</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nam doloribus expedita aperiam. Aspernatur nemo neque dicta accusamus? Laborum maxime iure cumque perferendis voluptatibus voluptates error tempore veniam explicabo laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis et adipisci ducimus cupiditate tenetur esse temporibus aliquam error, unde odit eligendi nostrum. Autem exercitationem vel, aliquam molestiae eveniet eius!</p>
+<body> <!-- OK -->
+    <h1>Trabalhando com fontes</h1> <!-- OK -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nam doloribus expedita aperiam. Aspernatur nemo neque dicta accusamus? Laborum maxime iure cumque perferendis voluptatibus voluptates error tempore veniam explicabo laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis et adipisci ducimus cupiditate tenetur esse temporibus aliquam error, unde odit eligendi nostrum. Autem exercitationem vel, aliquam molestiae eveniet eius!</p> <!-- OK -->
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi hic quos iste sint doloribus dolorem unde quaerat beatae ab, cumque cum. Maxime harum nisi quod adipisci suscipit mollitia animi quas?</p>
     <h2>Subtítulo do exercício</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias minus mollitia sunt ullam perspiciatis, voluptate odio illum eligendi iusto temporibus amet quasi aspernatur quae nihil! Consequuntur repudiandae adipisci numquam atque.</p>

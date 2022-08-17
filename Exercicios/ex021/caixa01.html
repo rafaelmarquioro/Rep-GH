@@ -1,33 +1,33 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Caixas</title>
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Modelo de Caixas</title> <!-- OK -->
     <style>
-        h1 { /* box-level */
-            background-color: blanchedalmond;
-            height: 300px;
-            width: 300px;         
+        h1 { /* box-level */ /*No box level por padrao haverá a quebra de linha. */
+            background-color: blanchedalmond; /*OK*/
+            height: 300px; /*OK*/
+            width: 300px; /*OK*/          
 
-            border: 10px solid gray;
+            border: 10px solid gray; /*OK*/
 
             padding: 10px 10px 10px 10px; /* como as 4 são iguais poderia informar apenas 1 valor (10px), ou apenas 2 valor (cima/baixo e esquerda/direita - ex: 10px 20px) */
             
-            margin: 20px 20px 40px 20px;          
+            margin: 20px 20px 40px 20px; /*OK*/       
 
-            outline: 5px dashed blue;
+            outline: 5px dashed blue; /*Este paramento é uma "borda adicional" que fica ´por fora da borda. */
         }
-        a { /* inline-level */
-            border: 10px solid red;
+        a { /* inline-level */ /* No inline-level tudo se mantem na mesma linha, sen quebrar linha*/ 
+            border: 10px solid red; /*OK*/ 
            
-            padding: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px; /*OK*/ 
         }
     </style>
 </head>
-<body>
-    <h1>Exemplo de caixa box-level</h1>
-    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+<body> <!-- OK -->
+    <h1>Exemplo de caixa box-level</h1> <!-- OK -->
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p> <!-- OK -->
 </body>
 </html>

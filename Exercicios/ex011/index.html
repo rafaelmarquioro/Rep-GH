@@ -1,15 +1,15 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mídias em HTML5</title>    
+<html lang="pt-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Mídias em HTML5</title> <!-- OK -->    
 </head>
-<body>
-    <h1>Imagem dinâmica</h1>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
-    <picture>
+<body> <!-- OK -->
+    <h1>Imagem dinâmica</h1> <!-- OK -->
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p> <!-- OK -->
+    <picture> <!-- Neste aula aprendemos a utilizar imagens dinamicas, ou seja, a imagem é modificada dependendo do tamanho da viewport. Neste caso se a viewport estiver com até 750px ele carrega a imagem pequena. Se estiver com até 1050px, carrega a imagem média. Se estiver acima de 1050px carrega a imagem grande. Necessário tambem informar o tipo de imagem. -->
         <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexivel">
@@ -17,10 +17,10 @@
 
     <h1>Reproduzindo Áudio</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5.</p>
-    <audio src="midia/audio01.mp3" controls></audio>
+    <audio src="midia/audio01.mp3" controls></audio> <!-- Para inserir audios no site é utilizada a tag "audio", onde colocamos o local do aquivo e tambem é necessário incluir o "controls" para que seja inserido os controles. -->
     <!-- MP3 WAV OGG -->
     <p>Teste</p>
-    <audio controls preload="metadata" loop>
+    <audio controls preload="metadata" loop> <!-- Desde outro modo colocando o "source" é o mais correto, pois são colocados varios formatos caso um tipo não carrege ele deve carregar o seguinte ou dar a opção de baixar o arquivo. -->
         <source src="midia/audio02.mp3" type="audio/mpeg">
         <source src="midia/audio02.ogg" type="audio/ogg">
         <source src="midia/audio02.wav" type="audio/wav">

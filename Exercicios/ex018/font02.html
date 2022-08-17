@@ -1,16 +1,16 @@
 <!DOCTYPE html> <!-- OK -->
-<html lang="pr-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes Externas</title>
+<html lang="pr-br"> <!-- OK -->
+<head> <!-- OK -->
+    <meta charset="UTF-8"> <!-- OK -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- OK -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- OK -->
+    <title>Fontes Externas</title> <!-- OK -->
     <style>
-        @font-face {
-            font-family: 'Valentina';
-            src: url('Best Valentina OTF.otf') format('opentype'), url('Best Valentina TTF') format('truetype');
-            font-weight: normal;
-            font-style: normal;
+        @font-face { /* Através do @font-face é definido uma fonte baixada */
+            font-family: 'Valentina'; /* Dar o nome que será chamado no CSS */
+            src: url('Best Valentina OTF.otf') format('opentype'), url('Best Valentina TTF') format('truetype'); /* a url é o local do arquivo, o format é o tipo. */
+            font-weight: normal; /*OK*/
+            font-style: normal; /*OK*/
             /*
             Tipos de format()
             - opentype (otf)
@@ -21,17 +21,17 @@
             */
         }
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif; /*OK*/
         }
         h1 {
-            font-family: 'Valentina', 'Times New Roman', Times, serif;
-            font-size: 3em;
-            font-weight: normal;
+            font-family: 'Valentina', 'Times New Roman', Times, serif; /*OK*/
+            font-size: 3em; /*OK*/
+            font-weight: normal; /*OK*/
         }
     </style>
 </head>
-<body>
-    <h1>Título</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero repellat dolore doloribus commodi excepturi ad beatae pariatur molestiae omnis quidem officia, a corporis illum autem. Quos, totam! Totam, perspiciatis.</p>
+<body> <!-- OK -->
+    <h1>Título</h1> <!-- OK -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vero repellat dolore doloribus commodi excepturi ad beatae pariatur molestiae omnis quidem officia, a corporis illum autem. Quos, totam! Totam, perspiciatis.</p> <!-- OK -->
 </body>
 </html>
