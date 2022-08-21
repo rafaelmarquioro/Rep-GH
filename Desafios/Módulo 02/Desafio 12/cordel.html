@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel Moderno</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Caveat:wght@400;500&family=Inspiration&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Caveat:wght@400;500&family=Inspiration&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro&family=Sriracha&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
         body {
             background-color: white;
             margin: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         header {
             background-color: black;
@@ -19,21 +24,30 @@
         header > h1 {
             margin: 0px;
             padding-top: 50px;
+            font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 7vw;
+            font-weight: bold;
+        }
+        .cordeltitulo {
+            font-size: 9vw;
         }
         header > blockquote {
             padding-bottom: 50px;
         }
         main {
-            margin: 5px;
+            margin: 5px;           
         }
         main > section {
             margin: 5px;
         }
         main > section > p {
             background-color: yellow;
-            line-height: 27px;
-            height: 250px;
-            width: 40%;
+            line-height: 6vw;
+            min-width: 300px;
+            min-height: 400px;
+            font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 3.5vw;
+            margin: 40px 20px 40px 50px;
         }
         footer {
             background-color: black;
@@ -46,7 +60,7 @@
 </head>
 <body>
     <header>
-        <h1>Cordel Moderno</h1>
+        <h1><span class="cordeltitulo">C</span>ORDEL <span class="cordeltitulo">M</span>ODERNO</h1>
         <blockquote cite="https://www.recantodasletras.com.br/poesias/3186743">Por <strong>Milton Duarte</strong></blockquote>
     </header>
     
@@ -131,7 +145,7 @@
     </main>
 
     <footer>
-        Site criado por Gustavo Guanabara oara o CursoemVídeo
+        Site criado por <strong>Gustavo Guanabara</strong> para o <strong>CursoemVideo</strong>
     </footer>
         
 </body>
